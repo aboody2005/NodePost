@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+svg{
+    z-index: -1;
+
+}
+
+.home-svg{
+    height: 450px;
+    margin-top: 20px;
+   margin-left: auto;
+
+margin-left: -200px;
+}
+
+nav{
+    background-color: #6c63ff;
+}
+
+#nav-change-color{
+    color: white;
+    font-size: 20px;
+transition: all 1000ms ease 0ms;
+}
+#nav-change-color:hover{
+    font-size: 25px;
+}
+
+
+
+.home-des{
+    position: absolute;
+    font-size: 40px;
+    width: 400px;
+
+    top: 130px;
+    left: 750px;
+}
+.home-desa{
+    position: absolute;
+    font-size: 40px;
+    width: 400px;
+
+    top: 260px;
+    left: 750px;
+    direction: rtl;
+}
+form{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card-footer{
+    margin-bottom: 30px;
+}
+.card{
+    width: 80%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card-header{
+    color: black;
+}
+.card-title{
+    color: black;
+}
+.card-text{
+   color: black;
+}

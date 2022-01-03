@@ -1,0 +1,36 @@
+<%-include ("layout/header.ejs")-%>
+<title>Posts</title>
+
+<div class="card text-center">
+  <% data.forEach(postData=>{ %>
+    <div class="card-header">
+        <%= postData.name%>
+   
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">
+        <%= postData.title%>
+    </h5>
+      <p class="card-text">
+        <%=postData.sub%></p>
+    
+    </div>
+    <div class="card-footer ">
+   <%=postData.Date%>
+      <% }); %>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<%-include ("layout/footer.ejs")-%>
