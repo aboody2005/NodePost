@@ -33,20 +33,19 @@ transition: all 1000ms ease 0ms;
 
 
 .home-des{
-    position: absolute;
+    display: flex;
     font-size: 40px;
     width: 400px;
 
-    top: 130px;
-    left: 750px;
+margin-left: 750px;
+margin-top: -300px;
 }
 .home-desa{
-    position: absolute;
+display: flex;
     font-size: 40px;
     width: 400px;
-
-    top: 260px;
-    left: 750px;
+    margin-left: 760px;
+    margin-top: -150;
     direction: rtl;
 }
 form{
@@ -71,4 +70,19 @@ form{
 }
 .card-text{
    color: black;
+}
+@media screen and (max-width: 980px){
+    .home-svg{
+        height: 350px;
+display: flex;
+    }
+    .home-des{
+        margin-left: 100px;
+        margin-top: 50px;
+        display: flex;  display: flex;
+    }
+    .home-desa{
+        margin-left: 100px;
+        display: flex;
+    }
 }
